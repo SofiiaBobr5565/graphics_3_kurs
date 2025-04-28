@@ -1,0 +1,9 @@
+﻿  main.cpp
+C:\Users\Sofiya\Documents\GitHub\graphics_3_kurs\Graphic_lab1\main.cpp(123,76): warning C4244: аргумент: преобразование "double" в "GLclampf", возможна потеря данных
+C:\Users\Sofiya\Documents\GitHub\graphics_3_kurs\Graphic_lab1\main.cpp(123,45): warning C4244: аргумент: преобразование "double" в "GLclampf", возможна потеря данных
+C:\Users\Sofiya\Documents\GitHub\graphics_3_kurs\Graphic_lab1\main.cpp(123,19): warning C4244: аргумент: преобразование "double" в "GLclampf", возможна потеря данных
+C:\Users\Sofiya\Documents\GitHub\graphics_3_kurs\Graphic_lab1\main.cpp(130,34): warning C4305: +=: усечение из "double" в "float"
+glew32s.lib(glew.obj) : warning LNK4099: "" PDB не найден с "glew32s.lib(glew.obj)" или на ""; компоновка объекта выполняется как при отсутствии отладочных данных
+LINK : warning LNK4098: библиотека по умолчанию "LIBCMT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+LINK : warning LNK4098: библиотека по умолчанию "MSVCRT" конфликтует с использованием других библиотек; используйте /NODEFAULTLIB:library
+  Graphic_lab1.vcxproj -> C:\Users\Sofiya\Documents\GitHub\graphics_3_kurs\Graphic_lab1\x64\Debug\Graphic_lab1.exe
