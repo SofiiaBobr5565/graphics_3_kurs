@@ -11,7 +11,6 @@
 // OpenGL
 #define GLUT_DISABLE_ATEXIT_HACK
 #define PI 3.14159265                                  // число ПИ
-//#define GLFW_DLL
 #define GLEW_STATIC
 
 #include <GL/glew.h>
@@ -73,28 +72,24 @@ void getOpenGLVerison() {
 	std::cout << "OpenGL 4.6: " << ((GLEW_VERSION_4_6 != 0) ? "Available" : "Unavailable") << std::endl;
 }
 
-/*
-* The main part of the code
-*/
 int main(int argc, char** argv) {
+	
 	argsEcho(argc, argv);
-	print("Hello OpenGL");
-	//println("It is me", "Mario", 12.34, PI, 's', mySuperStructure());
+
+	print("Hello OpenGL - I am Glad to see you");
+	print("Author: The student of the faculty of Applied Mathematics Bobrovytska Sofiia\n");
 
 	if (!glfwInit())
 	{
-		// Ошибка при инициализации GLFW
 		fprintf(stderr, "GLFW - Initialization error\n");
 		return -1;
 	}
-	glfwWindowHint(GLFW_SAMPLES, 4); // 4x Anti-Aliasing - Сглаживание 4x
-	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3); // Мы хотим использовать OpenGL 3.3
+	glfwWindowHint(GLFW_SAMPLES, 4);
+	glfwWindowHint(GLFW_CONTEXT_VERSION_MAJOR, 3);
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 0);
-	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // To make MacOS happy; should not be necessary
 
-	// Открыть окно и создать в нем контекст OpenGL
-	GLFWwindow* window; // (В сопроводительном исходном коде эта переменная является глобальной)
-	window = glfwCreateWindow(640, 480, "Lesson 01 - RAINBOW - (Harry James Potter/Hermione Jean Granger)", NULL, NULL);
+	GLFWwindow* window;
+	window = glfwCreateWindow(640, 480, "Lesson 01 - RAINBOW - Bobrovytska Sofiia PA-22-02", NULL, NULL);
 
 	if (window == NULL) {
 		fprintf(stderr, "It is not possible to open the window GLFW. If you have Intel GPU, then it does not support the OpenGL 3.3. Try OpenGL 2.1.\n");
@@ -102,6 +97,7 @@ int main(int argc, char** argv) {
 		return -1;
 	}
 	glfwMakeContextCurrent(window);
+	
 
 	// Инициализируем GLEW
 	glewExperimental = true; // Флаг необходим в Core-режиме OpenGL
