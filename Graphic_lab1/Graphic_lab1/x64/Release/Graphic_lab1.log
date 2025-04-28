@@ -1,0 +1,20 @@
+﻿main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_2_0.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_4_3.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_4_0.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_1_4.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_4_5.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_4_6.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_2_1.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_3_1.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_1_2.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_3_3.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_3_2.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_1_1.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_4_1.
+main.obj : error LNK2001: неразрешенный внешний символ __imp_glewExperimental.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_1_5.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_4_4.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_1_3.
+main.obj : error LNK2001: неразрешенный внешний символ __imp___GLEW_VERSION_3_0.
+main.obj : error LNK2001: неразрешенный внешний символ __imp_glewInit.
+C:\papka\Graphic_lab1\x64\Release\Graphic_lab1.exe : fatal error LNK1120: неразрешенных внешних элементов: 19
